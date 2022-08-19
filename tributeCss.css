@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    background-color: grey;
+    max-width: 1280px;
+    max-height: 100%;
+    margin: 20px 10px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#title,#main>p,#headline,#foot{
+    text-align: center;
+}
+
+#image{
+    max-width: 100%;
+    display: block;
+    margin: 0px auto;
+}
+
+#img-div{
+    background-color: white;
+    margin: 20px auto;
+    padding: 40px;
+    max-width: 1000px;
+}
+
+
+#img-caption{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#tribute-info{
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: start;
+}
+
+#tribute-info ul{
+    margin: 20px 0;
+}
+
+#tribute-info li{
+    letter-spacing: 2px;
+    line-height:30px;
+}
+
+#content{
+    max-width: 530px;
+    margin: 40px auto;
+    text-align: start;
+    letter-spacing: 2px;
+}
